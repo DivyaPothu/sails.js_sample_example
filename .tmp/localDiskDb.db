@@ -1,0 +1,47 @@
+{
+  "data": {
+    "testapi": [
+      {
+        "userName": "Divya",
+        "password": "Divya123",
+        "createdAt": "2017-10-30T07:39:30.629Z",
+        "updatedAt": "2017-10-30T07:39:30.629Z",
+        "id": 1
+      },
+      {
+        "userName": "Sreekari",
+        "password": "Divya123",
+        "createdAt": "2017-10-30T07:45:10.031Z",
+        "updatedAt": "2017-10-30T07:45:10.031Z",
+        "id": 2
+      }
+    ]
+  },
+  "schema": {
+    "testapi": {
+      "userName": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "testapi": {
+      "id": 2
+    }
+  }
+}
